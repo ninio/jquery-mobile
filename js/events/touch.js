@@ -143,7 +143,7 @@ define( [ "jquery", "../vmouse", "../support/touch" ], function( jQuery ) {
 	$.event.special.swipe = {
 
 		// More than this horizontal displacement, and we will suppress scrolling.
-		scrollSupressionThreshold: 10,
+		scrollSupressionThreshold: 30,
 
 		// More time than this, and it isn't a swipe.
 		durationThreshold: 1000,
